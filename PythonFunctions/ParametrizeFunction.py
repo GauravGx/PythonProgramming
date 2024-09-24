@@ -46,8 +46,8 @@ def my_function7(**kid):
 # dictionary is also iterable than we use loop to print value one by one
 def my_function7(**kid):
       for i in kid:
-            print(i)
-            print(i , kid[i])
+            print(i)         # here print only keys names
+            print(i , kid[i])   # here we print kid as dictionary and get value by passing keys;
 
 
 
